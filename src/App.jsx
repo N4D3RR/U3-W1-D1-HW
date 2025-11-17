@@ -27,6 +27,7 @@ function App() {
 
       <ButtonComponent className="button" type="Premi" />
       <ButtonComponent className="button" type="Schiaccia" />
+      <ButtonComponent className="button" type="NON PREMERE!" />
       <br />
       <ImageComponent className="img" src="https://placecats.com/100/100" />
       <ImageComponent className="img" src="https://placecats.com/150/150" />
