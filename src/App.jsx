@@ -3,6 +3,7 @@ import viteLogo from "/vite.svg"
 import "./App.css"
 import ButtonComponent from "./components/ButtonComponent"
 import ImageComponent from "./components/ImageComponent"
+import InputField from "./components/InputField"
 
 function App() {
   return (
@@ -35,6 +36,9 @@ function App() {
       <ImageComponent className="img" src="https://placecats.com/200/200" />
       <ImageComponent className="img" src="https://placecats.com/150/150" />
       <ImageComponent className="img" src="https://placecats.com/100/100" />
+      <br />
+      <InputField className="input" pholder="Scrivi" />
+      <InputField className="input" pholder="Non scrivere" />
     </>
   )
 }
